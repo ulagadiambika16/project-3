@@ -1,0 +1,99 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e1e3ed, #764ba2);
+  min-height: 100vh;
+}
+
+/* Main Todo Container */
+div {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Todo Card */
+.todo-container {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Input */
+input {
+  width: 65%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #667eea;
+}
+
+/* Add Button */
+button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  margin-left: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4c5fd5;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background: #f4f5ff;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #e8eaff;
+}
+
+/* Delete Button */
+li button {
+  background: #ff4d4d;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+li button:hover {
+  background: #e60000;
+}
